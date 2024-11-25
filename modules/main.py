@@ -23,7 +23,9 @@ from bs4 import BeautifulSoup
 bot = Client("bot",
               api_id=API_ID,
               api_hash=API_HASH,
-              bot_token=BOT_TOKEN)
+              bot_token=BOT_TOKEN,
+              owner_id=OWNER_ID, 
+              sudo_users=SUDO_USERS)
 
 
 #----------CONVERTOR-------------
