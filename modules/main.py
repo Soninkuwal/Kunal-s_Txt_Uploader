@@ -162,7 +162,7 @@ async def account_login(bot: Client, m: Message):
         count = int(raw_text)
 
     try:
-        await bot.send_message( f"**•File name** - `{file_name}`({raw_text0})\n**•Total Links Found In TXT** - `{len(links)}`\n**•Starts from** - `{raw_text}`\n**•Resolution** - `{res}`({raw_text2})\n**•Caption** - `{raw_text3}`\n**•Thumbnail** - `{thumb}`")
+        await bot.send_message(-1002355909549, f"**•File name** - `{file_name}`({raw_text0})\n**•Total Links Found In TXT** - `{len(links)}`\n**•Starts from** - `{raw_text}`\n**•Resolution** - `{res}`({raw_text2})\n**•Caption** - `{raw_text3}`\n**•Thumbnail** - `{thumb}`")
         for i in range(count - 1, len(links)):
             if len(links[i]) != 2 or not links[i][1]:
                 # If the link is empty or not properly formatted, continue to the next iteration
