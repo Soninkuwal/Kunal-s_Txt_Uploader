@@ -23,11 +23,10 @@ from bs4 import BeautifulSoup
 bot = Client("bot",
               api_id=API_ID,
               api_hash=API_HASH,
-              bot_token=BOT_TOKEN,
-              owner_id=OWNER_ID, 
-              sudo_users=SUDO_USERS)
+              bot_token=BOT_TOKEN)
 
-
+ower_id[7841292070]
+sudo_users[7841292070]
 #----------CONVERTOR-------------
 
 @bot.on_message(filters.command('h2t'))
